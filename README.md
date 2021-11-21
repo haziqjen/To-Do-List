@@ -4,12 +4,12 @@ Mobile App Developer Assessment by ETiQA IT
 
 ## Getting Started
 
-This project is an assessment developed using Flutter with Dart language. This apps alsi built with sound null safety with the latest Flutter and Dart SDK
+This project is an assessment developed using Flutter with Dart language. This apps also built with sound null safety with the latest Flutter and Dart SDK
 
-![Splash Screen](sample/image1.png)
-![Home Screen](sample/image2.png)
-![Add New Screen](sample/image3.png)
-![Update Screen](sample/image4.png)
+![Splash Screen](sample/image1.jpg)
+![Home Screen](sample/image2.jpg)
+![Add New Screen](sample/image3.jpg)
+![Update Screen](sample/image4.jpg)
 
 [Download APK sample here](sample/)
 
