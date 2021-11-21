@@ -1,0 +1,77 @@
+name: to_do_list
+description: Mobile App Developer Assessment by ETiQA IT
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: ^4.3.8
+  hive: ^2.0.4
+  hive_flutter: ^1.1.0
+  simple_animations: ^4.0.1
+  intl: ^0.17.0
+  lottie: ^1.2.1
+  path_provider: ^2.0.7
+  date_count_down: ^1.0.2
+
+dev_dependencies:
+
+  hive_generator: ^1.1.1
+  build_runner: ^2.1.5
+
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - assets/images/initial_asset.png
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+     - family: Bulo Rounded Light
+       fonts:
+         - asset: assets/fonts/BuloRounded-Light.ttf
+           weight: 300
+     - family: Bulo Rounded Regular
+       fonts:
+        - asset: assets/fonts/BuloRounded-Regular.ttf
+          weight: 400
+     - family: Bulo Rounded Medium
+       fonts:
+         - asset: assets/fonts/BuloRounded-Medium.ttf
+           weight: 500
+     - family: Bulo Rounded Bold
+       fonts:
+         - asset: assets/fonts/BuloRounded-Bold.ttf
+           weight: 600
+     - family: Bulo Rounded Black
+       fonts:
+         - asset: assets/fonts/BuloRounded-Black.ttf
+           weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
